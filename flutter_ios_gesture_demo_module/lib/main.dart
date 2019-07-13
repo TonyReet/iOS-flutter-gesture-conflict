@@ -55,11 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
   static String _scrollEndKey = 'scrollEndKey';
 
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
@@ -118,7 +113,6 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
               child: GestureDetector(
             onHorizontalDragStart: (detail) {
-              print('手势111');
               Map<String, dynamic> resInfo = {
                 "offsetX": detail.globalPosition.dx,
                 "velocityX": detail.globalPosition.dx
@@ -127,16 +121,14 @@ class _MyHomePageState extends State<MyHomePage> {
               _scrollMethodChannel.invokeMethod(_scrollBeganKey, resInfo);
             },
             onHorizontalDragEnd: (detail) {
-              print('手势333');
               Map<String, dynamic> resInfo = {
-                "offsetX": 0,
+                "offsetX": detail.globalPosition.dx,
                 "velocityX": detail.primaryVelocity
               };
 
               _scrollMethodChannel.invokeMethod(_scrollEndKey, resInfo);
             },
             onHorizontalDragUpdate: (detail) {
-              print('手势222');
               Map<String, dynamic> resInfo = {
                 "offsetX": detail.globalPosition.dx,
                 "velocityX": detail.primaryDelta

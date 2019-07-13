@@ -1,6 +1,6 @@
 //
 //  TYSideViewController.h
-//  flutterself.iOSself.gestureself.demo
+//  flutter_iOS_gesture_demo
 //
 //  Created by TonyReet on 2019/7/6.
 //  Copyright © 2019 TonyReet. All rights reserved.
@@ -301,11 +301,11 @@
     
     // 若为FlutterView（即点击了flutter），则不截获Touch事件
     if ([NSStringFromClass([touch.view class]) isEqualToString:@"FlutterView"]) {
-        NSLog(@"手势来了:NO");
+        NSLog(@"flutterView");
         return NO;
     }
 
-    NSLog(@"手势来了:YES");
+    NSLog(@"native View");
     return  YES;
 }
 
