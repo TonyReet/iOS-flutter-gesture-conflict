@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEB450F72C9FDDE24C0A64F /* libPods-flutter_iOS_gesture_demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77603E92CBC44DED8F7132D8 /* libPods-flutter_iOS_gesture_demo.a */; };
+		6A5B544022D0497C00DE3523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B543F22D0497C00DE3523 /* AppDelegate.m */; };
+		6A5B544322D0497C00DE3523 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B544222D0497C00DE3523 /* ContentViewController.m */; };
+		6A5B544622D0497C00DE3523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B544422D0497C00DE3523 /* Main.storyboard */; };
+		6A5B544822D0497E00DE3523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B544722D0497E00DE3523 /* Assets.xcassets */; };
+		6A5B544B22D0497E00DE3523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B544922D0497E00DE3523 /* LaunchScreen.storyboard */; };
+		6A5B544E22D0497E00DE3523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B544D22D0497E00DE3523 /* main.m */; };
+		6A5B545722D06C1200DE3523 /* TYSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B545622D06C1200DE3523 /* TYSideViewController.m */; };
+		6A5B545D22D0983100DE3523 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B545C22D0983100DE3523 /* LeftTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		099237E4CC3244CFEF82CEE9 /* Pods-flutter_iOS_gesture_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter_iOS_gesture_demo.release.xcconfig"; path = "Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo.release.xcconfig"; sourceTree = "<group>"; };
+		6A5B543B22D0497C00DE3523 /* flutter_iOS_gesture_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutter_iOS_gesture_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5B543E22D0497C00DE3523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A5B543F22D0497C00DE3523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A5B544122D0497C00DE3523 /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		6A5B544222D0497C00DE3523 /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		6A5B544522D0497C00DE3523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A5B544722D0497E00DE3523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A5B544A22D0497E00DE3523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A5B544C22D0497E00DE3523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5B544D22D0497E00DE3523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A5B545522D06C1100DE3523 /* TYSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSideViewController.h; sourceTree = "<group>"; };
+		6A5B545622D06C1200DE3523 /* TYSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSideViewController.m; sourceTree = "<group>"; };
+		6A5B545B22D0983100DE3523 /* LeftTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		6A5B545C22D0983100DE3523 /* LeftTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		77603E92CBC44DED8F7132D8 /* libPods-flutter_iOS_gesture_demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flutter_iOS_gesture_demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC976666F6D04FC20A6AF783 /* Pods-flutter_iOS_gesture_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter_iOS_gesture_demo.debug.xcconfig"; path = "Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A5B543822D0497C00DE3523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEB450F72C9FDDE24C0A64F /* libPods-flutter_iOS_gesture_demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5567C29B847E569E813E8647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77603E92CBC44DED8F7132D8 /* libPods-flutter_iOS_gesture_demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A5B543222D0497C00DE3523 = {
+			isa = PBXGroup;
+			children = (
+				6A5B543D22D0497C00DE3523 /* flutter_iOS_gesture_demo */,
+				6A5B543C22D0497C00DE3523 /* Products */,
+				7EC126DA82ED84E5557DE545 /* Pods */,
+				5567C29B847E569E813E8647 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A5B543C22D0497C00DE3523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B543B22D0497C00DE3523 /* flutter_iOS_gesture_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A5B543D22D0497C00DE3523 /* flutter_iOS_gesture_demo */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B545522D06C1100DE3523 /* TYSideViewController.h */,
+				6A5B545622D06C1200DE3523 /* TYSideViewController.m */,
+				6A5B543E22D0497C00DE3523 /* AppDelegate.h */,
+				6A5B543F22D0497C00DE3523 /* AppDelegate.m */,
+				6A5B544122D0497C00DE3523 /* ContentViewController.h */,
+				6A5B544222D0497C00DE3523 /* ContentViewController.m */,
+				6A5B545B22D0983100DE3523 /* LeftTableViewController.h */,
+				6A5B545C22D0983100DE3523 /* LeftTableViewController.m */,
+				6A5B544422D0497C00DE3523 /* Main.storyboard */,
+				6A5B544722D0497E00DE3523 /* Assets.xcassets */,
+				6A5B544922D0497E00DE3523 /* LaunchScreen.storyboard */,
+				6A5B544C22D0497E00DE3523 /* Info.plist */,
+				6A5B544D22D0497E00DE3523 /* main.m */,
+			);
+			path = flutter_iOS_gesture_demo;
+			sourceTree = "<group>";
+		};
+		7EC126DA82ED84E5557DE545 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC976666F6D04FC20A6AF783 /* Pods-flutter_iOS_gesture_demo.debug.xcconfig */,
+				099237E4CC3244CFEF82CEE9 /* Pods-flutter_iOS_gesture_demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A5B543A22D0497C00DE3523 /* flutter_iOS_gesture_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A5B545122D0497E00DE3523 /* Build configuration list for PBXNativeTarget "flutter_iOS_gesture_demo" */;
+			buildPhases = (
+				342B43A7CDA723DFBEFC348C /* [CP] Check Pods Manifest.lock */,
+				6A5B543722D0497C00DE3523 /* Sources */,
+				6A5B543822D0497C00DE3523 /* Frameworks */,
+				6A5B543922D0497C00DE3523 /* Resources */,
+				FBF59D58537FB88E36EBD27D /* [CP] Embed Pods Frameworks */,
+				6A5B545422D05D6E00DE3523 /* Flutter */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flutter_iOS_gesture_demo;
+			productName = flutter_iOS_gesture_demo;
+			productReference = 6A5B543B22D0497C00DE3523 /* flutter_iOS_gesture_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A5B543322D0497C00DE3523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TonyReet;
+				TargetAttributes = {
+					6A5B543A22D0497C00DE3523 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A5B543622D0497C00DE3523 /* Build configuration list for PBXProject "flutter_iOS_gesture_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A5B543222D0497C00DE3523;
+			productRefGroup = 6A5B543C22D0497C00DE3523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A5B543A22D0497C00DE3523 /* flutter_iOS_gesture_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A5B543922D0497C00DE3523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B544B22D0497E00DE3523 /* LaunchScreen.storyboard in Resources */,
+				6A5B544822D0497E00DE3523 /* Assets.xcassets in Resources */,
+				6A5B544622D0497C00DE3523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		342B43A7CDA723DFBEFC348C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flutter_iOS_gesture_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5B545422D05D6E00DE3523 /* Flutter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Flutter;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
+		FBF59D58537FB88E36EBD27D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A5B543722D0497C00DE3523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B544322D0497C00DE3523 /* ContentViewController.m in Sources */,
+				6A5B545D22D0983100DE3523 /* LeftTableViewController.m in Sources */,
+				6A5B544E22D0497E00DE3523 /* main.m in Sources */,
+				6A5B545722D06C1200DE3523 /* TYSideViewController.m in Sources */,
+				6A5B544022D0497C00DE3523 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A5B544422D0497C00DE3523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5B544522D0497C00DE3523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A5B544922D0497E00DE3523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5B544A22D0497E00DE3523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A5B544F22D0497E00DE3523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A5B545022D0497E00DE3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A5B545222D0497E00DE3523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC976666F6D04FC20A6AF783 /* Pods-flutter_iOS_gesture_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXJWPMTZDB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = flutter_iOS_gesture_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonyReet.flutter-iOS-gesture-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A5B545322D0497E00DE3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099237E4CC3244CFEF82CEE9 /* Pods-flutter_iOS_gesture_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXJWPMTZDB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = flutter_iOS_gesture_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonyReet.flutter-iOS-gesture-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A5B543622D0497C00DE3523 /* Build configuration list for PBXProject "flutter_iOS_gesture_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5B544F22D0497E00DE3523 /* Debug */,
+				6A5B545022D0497E00DE3523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A5B545122D0497E00DE3523 /* Build configuration list for PBXNativeTarget "flutter_iOS_gesture_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5B545222D0497E00DE3523 /* Debug */,
+				6A5B545322D0497E00DE3523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A5B543322D0497C00DE3523 /* Project object */;
+}

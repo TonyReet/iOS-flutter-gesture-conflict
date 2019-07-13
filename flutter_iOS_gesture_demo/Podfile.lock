@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../flutter_ios_gesture_demo_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../flutter_ios_gesture_demo_module/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_ios_gesture_demo_module/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../flutter_ios_gesture_demo_module/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+
+PODFILE CHECKSUM: 088588fbd6fd1b3f86d0ce79f0647272b9134c53
+
+COCOAPODS: 1.7.1
