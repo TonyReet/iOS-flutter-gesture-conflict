@@ -87,7 +87,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text('测试标题:${index}',
-                            style: TextStyle(fontSize: 19, color: Colors.white),
+                            style: TextStyle(
+                                fontSize: 19,
+                                color: Colors.white,
+                                fontFamily: "HYYaKuHeiW"),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis),
                         Container(
@@ -122,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             onHorizontalDragEnd: (detail) {
               Map<String, dynamic> resInfo = {
-                "offsetX": detail.globalPosition.dx,
+                "offsetX": 0,
                 "velocityX": detail.primaryVelocity
               };
 

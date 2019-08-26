@@ -1,3 +1,11 @@
+
+
+#### 文件目录
+flutter_iOS_gesture_demo：iOS项目目录
+flutter_ios_gesture_demo_module：flutter项目目录
+
+在iOS项目执行pod install 即可运行混合工程，查看手势问题
+
 ## 具体问题
 iOS和flutter都有手势处理，但是在某些情况下可能产生手势冲突，比如iOS有一个抽屉手势，而flutter有一个水平的滑动手势，这个时候就会产生冲突的问题，具体问题看下面情况。
 
