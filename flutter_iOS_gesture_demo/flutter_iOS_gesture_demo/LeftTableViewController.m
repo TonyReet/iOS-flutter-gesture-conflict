@@ -37,9 +37,11 @@
  
     if (!cell){
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:testCellID];
+        cell.textLabel.font = [UIFont fontWithName:@"HYYaKuHeiW" size:20.0];
     }
  
     cell.textLabel.text = [NSString stringWithFormat:@"leftVc:第%@个cell",@(indexPath.row)];
+    
     return cell;
 }
 

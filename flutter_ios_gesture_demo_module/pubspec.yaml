@@ -73,6 +73,10 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 
+  fonts:
+    - family: HYYaKuHeiW
+      fonts:
+        - asset: fonts/HYYaKuHeiW.otf
 
   # This section identifies your Flutter project as a module meant for
   # embedding in a native host app.  These identifiers should _not_ ordinarily

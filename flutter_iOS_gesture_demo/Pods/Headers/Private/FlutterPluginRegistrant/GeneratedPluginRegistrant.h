@@ -1,0 +1,1 @@
+../../../../../flutter_ios_gesture_demo_module/.ios/Flutter/FlutterPluginRegistrant/Classes/GeneratedPluginRegistrant.h

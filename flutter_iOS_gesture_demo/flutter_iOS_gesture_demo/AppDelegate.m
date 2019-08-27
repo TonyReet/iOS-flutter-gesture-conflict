@@ -10,6 +10,10 @@
 #import <GeneratedPluginRegistrant.h>
 #import "TYSideViewController.h"
 #import "ContentViewController.h"
+#import <CoreText/CoreText.h>
+
+/// flutter保存的字体路径
+static NSString *const kFlutterFontPath =  @"fonts/HYYaKuHeiW.otf";
 
 @interface AppDelegate ()
 
@@ -37,9 +41,34 @@
     self.window.rootViewController = sideVC;
     
     [self.window makeKeyAndVisible];
+    
+    /// 加载flutter字体
+    NSString *lookupPath =  [FlutterDartProject lookupKeyForAsset:kFlutterFontPath];
+    [AppDelegate loadCustomFont:lookupPath];
+    
     return YES;
 }
 
+
+// iOS动态字体加载
++ (void) loadCustomFont:(NSString*)fontFileName{
+    NSString *fontPath = [[NSBundle mainBundle] pathForResource:fontFileName ofType:nil];
+    if (!fontPath) {
+        NSLog(@"SSXFlutter: Failed to load font: no fontPath %@", fontFileName);
+        return;
+    }
+    NSData *inData = [NSData dataWithContentsOfFile:fontPath];
+    CFErrorRef error;
+    CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)inData);
+    CGFontRef font = CGFontCreateWithDataProvider(provider);
+    if (!CTFontManagerRegisterGraphicsFont(font, &error)) {
+        CFStringRef errorDescription = CFErrorCopyDescription(error);
+        NSLog(@"SSXFlutter: Failed to load font: %@", errorDescription);
+        CFRelease(errorDescription);
+    }
+    CFRelease(font);
+    CFRelease(provider);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
