@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85d78be-561c-4818-b5dd-259cfb84383c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Flutter/Flutter.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Flutter/Flutter.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/Pods/Target Support Files/Pods-flutter_iOS_gesture_demo/Pods-flutter_iOS_gesture_demo.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo.xcworkspace/xcuserdata/tonyreet.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo.xcworkspace/xcuserdata/tonyreet.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo/LeftTableViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_iOS_gesture_demo/flutter_iOS_gesture_demo/LeftTableViewController.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_ios_gesture_demo_module/flutter_01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_ios_gesture_demo_module/flutter_02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_ios_gesture_demo_module/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_ios_gesture_demo_module/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_ios_gesture_demo_module/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_ios_gesture_demo_module/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+            <state relative-caret-position="780">
+              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -198,6 +183,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -212,7 +198,7 @@
       <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.13906582" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.32908705" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32908705" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32908705" />
@@ -263,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        <state relative-caret-position="780">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
         </state>
       </provider>
     </entry>
